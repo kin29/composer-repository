@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$5e08cf236b5e38065a06e2c6e78dd6fa33688a39.json": {
+            "sha1": "5e08cf236b5e38065a06e2c6e78dd6fa33688a39"
+        }
+    },
+    "metadata-url": "/composer-repository/web/p2/%package%.json",
+    "available-packages": [
+        "kin29/dj-kin29"
+    ]
+}

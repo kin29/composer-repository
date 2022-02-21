@@ -1,6 +1,6 @@
 {
     "name": "kin29/composer-repository",
-    "homepage": "http://127.0.0.1:8011",
+    "homepage": "https://kin29.github.io/composer-repository/web/",
     "repositories": [
         {
             "type": "vcs",
