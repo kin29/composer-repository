@@ -1,0 +1,11 @@
+{
+    "name": "kin29/composer-repository",
+    "homepage": "http://127.0.0.1:8011",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kin29/dj-kin29"
+        }
+    ],
+    "require-all": true
+}
