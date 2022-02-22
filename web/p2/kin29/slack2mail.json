@@ -62,6 +62,37 @@
                     "source": "https://github.com/kin29/slack2mail/tree/v0.0.2",
                     "issues": "https://github.com/kin29/slack2mail/issues"
                 }
+            },
+            {
+                "name": "kin29/slack2mail",
+                "version": "v0.0.3",
+                "version_normalized": "0.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/slack2mail.git",
+                    "reference": "5ead7fc8f0bccd368c99dd5215e507bd78e38887"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/slack2mail/zipball/5ead7fc8f0bccd368c99dd5215e507bd78e38887",
+                    "reference": "5ead7fc8f0bccd368c99dd5215e507bd78e38887",
+                    "shasum": ""
+                },
+                "require": {
+                    "sendgrid/sendgrid": "~5.0.9"
+                },
+                "time": "2022-02-22T05:05:00+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "kin29",
+                        "email": "kin29.com@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/slack2mail/tree/v0.0.3",
+                    "issues": "https://github.com/kin29/slack2mail/issues"
+                }
             }
         ]
     }

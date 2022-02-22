@@ -29,7 +29,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/kin29/slack2mail/tree/master",
+                    "source": "https://github.com/kin29/slack2mail/tree/v0.0.3",
                     "issues": "https://github.com/kin29/slack2mail/issues"
                 }
             }
