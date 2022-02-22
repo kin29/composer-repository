@@ -4,6 +4,8 @@ on:
   repository_dispatch:
     types:
       - repository-updated
+  push:
+    branches: [ master ]
 
 jobs:
   build:
