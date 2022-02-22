@@ -1,6 +1,6 @@
 {
     "name": "kin29/composer-repository",
-    "homepage": "https://kin29.github.io/composer-repository/web/",
+    "homepage": "https://kin29.github.io/composer-repository/",
     "repositories": [
         {
             "type": "vcs",
