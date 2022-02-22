@@ -943,6 +943,42 @@
                 }
             }
         },
+        "kin29/private-project": {
+            "dev-main": {
+                "name": "kin29/private-project",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:kin29/private-project.git",
+                    "reference": "4cc5c2ce2abce01983b6af521afd261dea73cd7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/private-project/zipball/4cc5c2ce2abce01983b6af521afd261dea73cd7a",
+                    "reference": "4cc5c2ce2abce01983b6af521afd261dea73cd7a",
+                    "shasum": ""
+                },
+                "time": "2022-02-22T05:49:04+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Kin29\\PrivateProject\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "kin29",
+                        "email": "kin29.com@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/private-project/tree/main",
+                    "issues": "https://github.com/kin29/private-project/issues"
+                }
+            }
+        },
         "kin29/slack2mail": {
             "v0.0.1": {
                 "name": "kin29/slack2mail",
