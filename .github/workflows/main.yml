@@ -18,7 +18,11 @@ jobs:
         run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
 
       - name: satis build
-        run: vendor/bin/satis build satis.json docs
+        run: |
+          composer config --global github-oauth.github.com ${GITHUB_TOKEN}
+          vendor/bin/satis build satis.json docs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push build files
         run: |
