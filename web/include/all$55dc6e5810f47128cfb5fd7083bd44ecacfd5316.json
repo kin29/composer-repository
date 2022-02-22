@@ -944,31 +944,6 @@
             }
         },
         "kin29/slack2mail": {
-            "dev-debug-send-mail": {
-                "name": "kin29/slack2mail",
-                "version": "dev-debug-send-mail",
-                "version_normalized": "dev-debug-send-mail",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/kin29/slack2mail.git",
-                    "reference": "96d6011c52459976af7f5f2da528f8a59ce2c5ec"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/kin29/slack2mail/zipball/96d6011c52459976af7f5f2da528f8a59ce2c5ec",
-                    "reference": "96d6011c52459976af7f5f2da528f8a59ce2c5ec",
-                    "shasum": ""
-                },
-                "require": {
-                    "sendgrid/sendgrid": "~7"
-                },
-                "time": "2020-02-07T14:19:26+00:00",
-                "type": "library",
-                "support": {
-                    "source": "https://github.com/kin29/slack2mail/tree/debug-send-mail",
-                    "issues": "https://github.com/kin29/slack2mail/issues"
-                }
-            },
             "dev-master": {
                 "name": "kin29/slack2mail",
                 "version": "dev-master",
@@ -998,31 +973,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/kin29/slack2mail/tree/master",
-                    "issues": "https://github.com/kin29/slack2mail/issues"
-                }
-            },
-            "dev-release": {
-                "name": "kin29/slack2mail",
-                "version": "dev-release",
-                "version_normalized": "dev-release",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/kin29/slack2mail.git",
-                    "reference": "2ab90f9e1f9848c46b1aa8cdf84ac689588cb37e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/kin29/slack2mail/zipball/2ab90f9e1f9848c46b1aa8cdf84ac689588cb37e",
-                    "reference": "2ab90f9e1f9848c46b1aa8cdf84ac689588cb37e",
-                    "shasum": ""
-                },
-                "require": {
-                    "sendgrid/sendgrid": "~5.0.9"
-                },
-                "time": "2018-12-08T12:22:58+00:00",
-                "type": "library",
-                "support": {
-                    "source": "https://github.com/kin29/slack2mail/tree/release",
                     "issues": "https://github.com/kin29/slack2mail/issues"
                 }
             }
