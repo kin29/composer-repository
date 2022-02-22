@@ -19,10 +19,10 @@ jobs:
 
       - name: satis build
         run: |
-          composer config --global github-oauth.github.com ${GITHUB_TOKEN}
+          composer config --global github-oauth.github.com ${GITHUB_ACCESS_TOKEN}
           vendor/bin/satis build satis.json docs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACCESS_TOKEN: ${{ secrets.MY_GITHUB_ACCESS_TOKEN }}
 
       - name: Push build files
         run: |
