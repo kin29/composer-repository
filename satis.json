@@ -4,10 +4,6 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/kin29/dj-kin29"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/kin29/slack2mail"
         }
     ],
