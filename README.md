@@ -10,5 +10,5 @@ $ composer install
 # GitHub Actionでするのでコミットしない。
 $ vendor/bin/satis build satis.json docs
 
-$ php -S localhost:8888 -t doc
+$ php -S localhost:8888 -t docs
 ```
