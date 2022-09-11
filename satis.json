@@ -9,10 +9,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/kin29/slack2mail"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/kin29/private-project"
         }
     ],
     "require-all": true

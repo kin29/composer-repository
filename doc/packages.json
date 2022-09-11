@@ -1,0 +1,13 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$d0b014948878e891b5c0766eaac4e96e570bef52.json": {
+            "sha1": "d0b014948878e891b5c0766eaac4e96e570bef52"
+        }
+    },
+    "metadata-url": "/composer-repository/p2/%package%.json",
+    "available-packages": [
+        "kin29/dj-kin29",
+        "kin29/slack2mail"
+    ]
+}

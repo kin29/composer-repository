@@ -1,0 +1,1367 @@
+{
+    "packages": {
+        "kin29/dj-kin29": {
+            "dev-add-code-quaity-php-cs-fixer": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-add-code-quaity-php-cs-fixer",
+                "version_normalized": "dev-add-code-quaity-php-cs-fixer",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "56313ca23838bce5320191f1584945376108507e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/56313ca23838bce5320191f1584945376108507e",
+                    "reference": "56313ca23838bce5320191f1584945376108507e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^3.1",
+                    "php": "^7.1.3",
+                    "phpunit/phpunit": "^7.5",
+                    "sensio/framework-extra-bundle": "^5.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "4.4.*",
+                    "symfony/console": "4.4.*",
+                    "symfony/debug-pack": "*",
+                    "symfony/dotenv": "4.4.*",
+                    "symfony/expression-language": "4.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "4.4.*",
+                    "symfony/framework-bundle": "4.4.*",
+                    "symfony/http-client": "4.4.*",
+                    "symfony/intl": "4.4.*",
+                    "symfony/mailer": "4.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "*",
+                    "symfony/process": "4.4.*",
+                    "symfony/profiler-pack": "*",
+                    "symfony/security-bundle": "4.4.*",
+                    "symfony/serializer-pack": "*",
+                    "symfony/test-pack": "*",
+                    "symfony/translation": "4.4.*",
+                    "symfony/twig-pack": "*",
+                    "symfony/validator": "4.4.*",
+                    "symfony/web-link": "4.4.*",
+                    "symfony/yaml": "4.4.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^2.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "symfony/debug-pack": "*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/profiler-pack": "*",
+                    "symfony/test-pack": "*"
+                },
+                "time": "2020-07-08T06:15:42+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/add-code-quaity-php-cs-fixer",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-add-code-quality-static-analysis": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-add-code-quality-static-analysis",
+                "version_normalized": "dev-add-code-quality-static-analysis",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "f6c72385ae06687bd54b2a0bb5d6a84d97613117"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/f6c72385ae06687bd54b2a0bb5d6a84d97613117",
+                    "reference": "f6c72385ae06687bd54b2a0bb5d6a84d97613117",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^3.1",
+                    "php": "^7.1.3",
+                    "phpunit/phpunit": "^7.5",
+                    "sensio/framework-extra-bundle": "^5.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "4.4.*",
+                    "symfony/console": "4.4.*",
+                    "symfony/debug-pack": "*",
+                    "symfony/dotenv": "4.4.*",
+                    "symfony/expression-language": "4.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "4.4.*",
+                    "symfony/framework-bundle": "4.4.*",
+                    "symfony/http-client": "4.4.*",
+                    "symfony/intl": "4.4.*",
+                    "symfony/mailer": "4.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "*",
+                    "symfony/process": "4.4.*",
+                    "symfony/profiler-pack": "*",
+                    "symfony/security-bundle": "4.4.*",
+                    "symfony/serializer-pack": "*",
+                    "symfony/test-pack": "*",
+                    "symfony/translation": "4.4.*",
+                    "symfony/twig-pack": "*",
+                    "symfony/validator": "4.4.*",
+                    "symfony/web-link": "4.4.*",
+                    "symfony/yaml": "4.4.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "symfony/debug-pack": "*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/profiler-pack": "*",
+                    "symfony/test-pack": "*"
+                },
+                "time": "2020-07-08T05:30:33+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/add-code-quality-static-analysis",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-add-travis-ci": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-add-travis-ci",
+                "version_normalized": "dev-add-travis-ci",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "b3d1297f6a8b2521e4f371cf7759e06259df2110"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/b3d1297f6a8b2521e4f371cf7759e06259df2110",
+                    "reference": "b3d1297f6a8b2521e4f371cf7759e06259df2110",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^3.1",
+                    "php": "^7.1.3",
+                    "phpunit/phpunit": "^7.5",
+                    "sensio/framework-extra-bundle": "^5.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "4.4.*",
+                    "symfony/console": "4.4.*",
+                    "symfony/debug-pack": "*",
+                    "symfony/dotenv": "4.4.*",
+                    "symfony/expression-language": "4.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "4.4.*",
+                    "symfony/framework-bundle": "4.4.*",
+                    "symfony/http-client": "4.4.*",
+                    "symfony/intl": "4.4.*",
+                    "symfony/mailer": "4.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "*",
+                    "symfony/process": "4.4.*",
+                    "symfony/profiler-pack": "*",
+                    "symfony/security-bundle": "4.4.*",
+                    "symfony/serializer-pack": "*",
+                    "symfony/test-pack": "*",
+                    "symfony/translation": "4.4.*",
+                    "symfony/twig-pack": "*",
+                    "symfony/validator": "4.4.*",
+                    "symfony/web-link": "4.4.*",
+                    "symfony/yaml": "4.4.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "symfony/debug-pack": "*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/profiler-pack": "*",
+                    "symfony/test-pack": "*"
+                },
+                "time": "2020-07-08T04:37:14+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/add-travis-ci",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-change-badge-to-remove-travis": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-change-badge-to-remove-travis",
+                "version_normalized": "dev-change-badge-to-remove-travis",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "3def5169dfe9d58b8c632eb0e9590d04286a14af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/3def5169dfe9d58b8c632eb0e9590d04286a14af",
+                    "reference": "3def5169dfe9d58b8c632eb0e9590d04286a14af",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0 || ^2.0",
+                    "doctrine/annotations": "^1.0",
+                    "doctrine/doctrine-bundle": "^2.6",
+                    "doctrine/doctrine-migrations-bundle": "^3.2",
+                    "doctrine/orm": "^2.12",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^5.0",
+                    "php": ">=8.1.0",
+                    "phpdocumentor/reflection-docblock": "^5.3",
+                    "phpstan/phpdoc-parser": "^1.5",
+                    "phpunit/phpunit": "^9.5",
+                    "sensio/framework-extra-bundle": "^6.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "5.4.*",
+                    "symfony/console": "5.4.*",
+                    "symfony/dotenv": "5.4.*",
+                    "symfony/expression-language": "5.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "5.4.*",
+                    "symfony/framework-bundle": "5.4.*",
+                    "symfony/http-client": "5.4.*",
+                    "symfony/intl": "5.4.*",
+                    "symfony/mailer": "5.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/process": "5.4.*",
+                    "symfony/property-access": "5.4.*",
+                    "symfony/property-info": "5.4.*",
+                    "symfony/proxy-manager-bridge": "5.4.*",
+                    "symfony/security-bundle": "5.4.*",
+                    "symfony/serializer": "5.4.*",
+                    "symfony/translation": "5.4.*",
+                    "symfony/twig-bundle": "5.4.*",
+                    "symfony/validator": "5.4.*",
+                    "symfony/web-link": "5.4.*",
+                    "symfony/webpack-encore-bundle": "^1.12",
+                    "symfony/yaml": "5.4.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "symfony/browser-kit": "5.4.*",
+                    "symfony/css-selector": "5.4.*",
+                    "symfony/debug-bundle": "5.4.*",
+                    "symfony/phpunit-bridge": "^6.0",
+                    "symfony/stopwatch": "5.4.*",
+                    "symfony/web-profiler-bundle": "5.4.*"
+                },
+                "time": "2022-05-06T21:30:16+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "5.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "test": [
+                        "./vendor/bin/phpunit tests/"
+                    ],
+                    "cs": [
+                        "vendor/bin/php-cs-fixer fix -v --dry-run src/"
+                    ],
+                    "cs-fix": [
+                        "vendor/bin/php-cs-fixer fix -v src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Web Application for creating automatically Spotify playlist",
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/change-badge-to-remove-travis",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/terser-5.14.2": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-dependabot/npm_and_yarn/terser-5.14.2",
+                "version_normalized": "dev-dependabot/npm_and_yarn/terser-5.14.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "f5aa81a89119e4d207be0f6fb09ac13765c8c57e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/f5aa81a89119e4d207be0f6fb09ac13765c8c57e",
+                    "reference": "f5aa81a89119e4d207be0f6fb09ac13765c8c57e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0 || ^2.0",
+                    "doctrine/annotations": "^1.0",
+                    "doctrine/doctrine-bundle": "^2.6",
+                    "doctrine/doctrine-migrations-bundle": "^3.2",
+                    "doctrine/orm": "^2.12",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^5.0",
+                    "php": ">=8.1.0",
+                    "phpdocumentor/reflection-docblock": "^5.3",
+                    "phpstan/phpdoc-parser": "^1.5",
+                    "phpunit/phpunit": "^9.5",
+                    "sensio/framework-extra-bundle": "^6.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "5.4.*",
+                    "symfony/console": "5.4.*",
+                    "symfony/dotenv": "5.4.*",
+                    "symfony/expression-language": "5.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "5.4.*",
+                    "symfony/framework-bundle": "5.4.*",
+                    "symfony/http-client": "5.4.*",
+                    "symfony/intl": "5.4.*",
+                    "symfony/mailer": "5.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/process": "5.4.*",
+                    "symfony/property-access": "5.4.*",
+                    "symfony/property-info": "5.4.*",
+                    "symfony/proxy-manager-bridge": "5.4.*",
+                    "symfony/security-bundle": "5.4.*",
+                    "symfony/serializer": "5.4.*",
+                    "symfony/translation": "5.4.*",
+                    "symfony/twig-bundle": "5.4.*",
+                    "symfony/validator": "5.4.*",
+                    "symfony/web-link": "5.4.*",
+                    "symfony/webpack-encore-bundle": "^1.12",
+                    "symfony/yaml": "5.4.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "phpstan/phpstan": "^1.6",
+                    "symfony/browser-kit": "5.4.*",
+                    "symfony/css-selector": "5.4.*",
+                    "symfony/debug-bundle": "5.4.*",
+                    "symfony/phpunit-bridge": "^6.0",
+                    "symfony/stopwatch": "5.4.*",
+                    "symfony/web-profiler-bundle": "5.4.*"
+                },
+                "time": "2022-07-20T09:12:43+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "5.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "test": [
+                        "./vendor/bin/phpunit tests/"
+                    ],
+                    "cs": [
+                        "vendor/bin/php-cs-fixer fix -v --dry-run src/"
+                    ],
+                    "cs-fix": [
+                        "vendor/bin/php-cs-fixer fix -v src/"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Web Application for creating automatically Spotify playlist",
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/dependabot/npm_and_yarn/terser-5.14.2",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-fix-php-version-and-phpunit-xml": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-fix-php-version-and-phpunit-xml",
+                "version_normalized": "dev-fix-php-version-and-phpunit-xml",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "11679a5f48299d9552feb0d39f0f0e264fd3f226"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/11679a5f48299d9552feb0d39f0f0e264fd3f226",
+                    "reference": "11679a5f48299d9552feb0d39f0f0e264fd3f226",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0 || ^2.0",
+                    "doctrine/annotations": "^1.0",
+                    "doctrine/doctrine-bundle": "^2.6",
+                    "doctrine/doctrine-migrations-bundle": "^3.2",
+                    "doctrine/orm": "^2.12",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^5.0",
+                    "php": ">=8.1.0",
+                    "phpdocumentor/reflection-docblock": "^5.3",
+                    "phpstan/phpdoc-parser": "^1.5",
+                    "phpunit/phpunit": "^9.5",
+                    "sensio/framework-extra-bundle": "^6.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "5.4.*",
+                    "symfony/console": "5.4.*",
+                    "symfony/dotenv": "5.4.*",
+                    "symfony/expression-language": "5.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "5.4.*",
+                    "symfony/framework-bundle": "5.4.*",
+                    "symfony/http-client": "5.4.*",
+                    "symfony/intl": "5.4.*",
+                    "symfony/mailer": "5.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/process": "5.4.*",
+                    "symfony/property-access": "5.4.*",
+                    "symfony/property-info": "5.4.*",
+                    "symfony/proxy-manager-bridge": "5.4.*",
+                    "symfony/security-bundle": "5.4.*",
+                    "symfony/serializer": "5.4.*",
+                    "symfony/translation": "5.4.*",
+                    "symfony/twig-bundle": "5.4.*",
+                    "symfony/validator": "5.4.*",
+                    "symfony/web-link": "5.4.*",
+                    "symfony/webpack-encore-bundle": "^1.12",
+                    "symfony/yaml": "5.4.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "phpstan/phpstan": "^1.6",
+                    "symfony/browser-kit": "5.4.*",
+                    "symfony/css-selector": "5.4.*",
+                    "symfony/debug-bundle": "5.4.*",
+                    "symfony/phpunit-bridge": "^6.0",
+                    "symfony/stopwatch": "5.4.*",
+                    "symfony/web-profiler-bundle": "5.4.*"
+                },
+                "time": "2022-07-03T08:28:53+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "5.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "test": [
+                        "./vendor/bin/phpunit tests/"
+                    ],
+                    "cs": [
+                        "vendor/bin/php-cs-fixer fix -v --dry-run src/"
+                    ],
+                    "cs-fix": [
+                        "vendor/bin/php-cs-fixer fix -v src/"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Web Application for creating automatically Spotify playlist",
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/fix-php-version-and-phpunit-xml",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-fix-travis-php8": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-fix-travis-php8",
+                "version_normalized": "dev-fix-travis-php8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "02623b65027c5fda7f46573eccd2ab0f7eae3573"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/02623b65027c5fda7f46573eccd2ab0f7eae3573",
+                    "reference": "02623b65027c5fda7f46573eccd2ab0f7eae3573",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0 || ^2.0",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^5.0",
+                    "php": "^8.0",
+                    "phpunit/phpunit": "^9.5",
+                    "sensio/framework-extra-bundle": "^5.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "4.4.*",
+                    "symfony/console": "4.4.*",
+                    "symfony/debug-pack": "^1.0",
+                    "symfony/dotenv": "4.4.*",
+                    "symfony/expression-language": "4.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "4.4.*",
+                    "symfony/framework-bundle": "4.4.*",
+                    "symfony/http-client": "4.4.*",
+                    "symfony/intl": "4.4.*",
+                    "symfony/mailer": "4.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "^2.0",
+                    "symfony/process": "4.4.*",
+                    "symfony/profiler-pack": "^1.0",
+                    "symfony/security-bundle": "4.4.*",
+                    "symfony/serializer-pack": "^1.0",
+                    "symfony/test-pack": "^1.0",
+                    "symfony/translation": "4.4.*",
+                    "symfony/twig-pack": "^1.0",
+                    "symfony/validator": "4.4.*",
+                    "symfony/web-link": "4.4.*",
+                    "symfony/yaml": "4.4.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^2.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "phpspec/prophecy-phpunit": "^2.0"
+                },
+                "time": "2021-08-07T14:02:02+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "test": [
+                        "./vendor/bin/phpunit tests/"
+                    ],
+                    "cs": [
+                        "vendor/bin/php-cs-fixer fix -v --dry-run src/"
+                    ],
+                    "cs-fix": [
+                        "vendor/bin/php-cs-fixer fix -v src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Web Application for creating automatically Spotify playlist",
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/fix-travis-php8",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-master": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "f308994620e8daaddcf16f4b658826591e4e5d8e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/f308994620e8daaddcf16f4b658826591e4e5d8e",
+                    "reference": "f308994620e8daaddcf16f4b658826591e4e5d8e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0 || ^2.0",
+                    "doctrine/annotations": "^1.0",
+                    "doctrine/doctrine-bundle": "^2.6",
+                    "doctrine/doctrine-migrations-bundle": "^3.2",
+                    "doctrine/orm": "^2.12",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^5.0",
+                    "php": ">=8.1.0",
+                    "phpdocumentor/reflection-docblock": "^5.3",
+                    "phpstan/phpdoc-parser": "^1.5",
+                    "phpunit/phpunit": "^9.5",
+                    "sensio/framework-extra-bundle": "^6.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "5.4.*",
+                    "symfony/console": "5.4.*",
+                    "symfony/dotenv": "5.4.*",
+                    "symfony/expression-language": "5.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "5.4.*",
+                    "symfony/framework-bundle": "5.4.*",
+                    "symfony/http-client": "5.4.*",
+                    "symfony/intl": "5.4.*",
+                    "symfony/mailer": "5.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/process": "5.4.*",
+                    "symfony/property-access": "5.4.*",
+                    "symfony/property-info": "5.4.*",
+                    "symfony/proxy-manager-bridge": "5.4.*",
+                    "symfony/security-bundle": "5.4.*",
+                    "symfony/serializer": "5.4.*",
+                    "symfony/translation": "5.4.*",
+                    "symfony/twig-bundle": "5.4.*",
+                    "symfony/validator": "5.4.*",
+                    "symfony/web-link": "5.4.*",
+                    "symfony/webpack-encore-bundle": "^1.12",
+                    "symfony/yaml": "5.4.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "phpstan/phpstan": "^1.6",
+                    "symfony/browser-kit": "5.4.*",
+                    "symfony/css-selector": "5.4.*",
+                    "symfony/debug-bundle": "5.4.*",
+                    "symfony/phpunit-bridge": "^6.0",
+                    "symfony/stopwatch": "5.4.*",
+                    "symfony/web-profiler-bundle": "5.4.*"
+                },
+                "time": "2022-05-07T05:03:34+00:00",
+                "default-branch": true,
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "5.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "test": [
+                        "./vendor/bin/phpunit tests/"
+                    ],
+                    "cs": [
+                        "vendor/bin/php-cs-fixer fix -v --dry-run src/"
+                    ],
+                    "cs-fix": [
+                        "vendor/bin/php-cs-fixer fix -v src/"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -c phpstan.neon"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Web Application for creating automatically Spotify playlist",
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/master",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-release": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-release",
+                "version_normalized": "dev-release",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "a2e3e79881947811e1bd04412817fc7d896579e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/a2e3e79881947811e1bd04412817fc7d896579e9",
+                    "reference": "a2e3e79881947811e1bd04412817fc7d896579e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0 || ^2.0",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^5.0",
+                    "php": "^8.0",
+                    "phpunit/phpunit": "^9.5",
+                    "sensio/framework-extra-bundle": "^6.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "5.3.*",
+                    "symfony/console": "5.3.*",
+                    "symfony/debug-pack": "^1.0",
+                    "symfony/dotenv": "5.3.*",
+                    "symfony/expression-language": "5.3.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "5.3.*",
+                    "symfony/framework-bundle": "5.3.*",
+                    "symfony/http-client": "5.3.*",
+                    "symfony/intl": "5.3.*",
+                    "symfony/mailer": "5.3.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "^2.0",
+                    "symfony/process": "5.3.*",
+                    "symfony/profiler-pack": "^1.0",
+                    "symfony/security-bundle": "5.3.*",
+                    "symfony/serializer-pack": "^1.0",
+                    "symfony/test-pack": "^1.0",
+                    "symfony/translation": "5.3.*",
+                    "symfony/twig-pack": "^1.0",
+                    "symfony/validator": "5.3.*",
+                    "symfony/web-link": "5.3.*",
+                    "symfony/webpack-encore-bundle": "^1.12",
+                    "symfony/yaml": "5.3.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^2.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "phpspec/prophecy-phpunit": "^2.0"
+                },
+                "time": "2021-08-21T09:26:56+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "test": [
+                        "./vendor/bin/phpunit tests/"
+                    ],
+                    "cs": [
+                        "vendor/bin/php-cs-fixer fix -v --dry-run src/"
+                    ],
+                    "cs-fix": [
+                        "vendor/bin/php-cs-fixer fix -v src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Web Application for creating automatically Spotify playlist",
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/release",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-revert-add-webpack-encore": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-revert-add-webpack-encore",
+                "version_normalized": "dev-revert-add-webpack-encore",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "6a22a6a90824bd6968543767ab37b4c277be57b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/6a22a6a90824bd6968543767ab37b4c277be57b0",
+                    "reference": "6a22a6a90824bd6968543767ab37b4c277be57b0",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0 || ^2.0",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^5.0",
+                    "php": "^8.0",
+                    "phpunit/phpunit": "^9.5",
+                    "sensio/framework-extra-bundle": "^6.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "5.3.*",
+                    "symfony/console": "5.3.*",
+                    "symfony/debug-pack": "^1.0",
+                    "symfony/dotenv": "5.3.*",
+                    "symfony/expression-language": "5.3.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "5.3.*",
+                    "symfony/framework-bundle": "5.3.*",
+                    "symfony/http-client": "5.3.*",
+                    "symfony/intl": "5.3.*",
+                    "symfony/mailer": "5.3.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "^2.0",
+                    "symfony/process": "5.3.*",
+                    "symfony/profiler-pack": "^1.0",
+                    "symfony/security-bundle": "5.3.*",
+                    "symfony/serializer-pack": "^1.0",
+                    "symfony/test-pack": "^1.0",
+                    "symfony/translation": "5.3.*",
+                    "symfony/twig-pack": "^1.0",
+                    "symfony/validator": "5.3.*",
+                    "symfony/web-link": "5.3.*",
+                    "symfony/yaml": "5.3.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^2.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "phpspec/prophecy-phpunit": "^2.0"
+                },
+                "time": "2021-08-08T07:14:01+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "test": [
+                        "./vendor/bin/phpunit tests/"
+                    ],
+                    "cs": [
+                        "vendor/bin/php-cs-fixer fix -v --dry-run src/"
+                    ],
+                    "cs-fix": [
+                        "vendor/bin/php-cs-fixer fix -v src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Web Application for creating automatically Spotify playlist",
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/revert-add-webpack-encore",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            },
+            "dev-update-php-and-symfony": {
+                "name": "kin29/dj-kin29",
+                "version": "dev-update-php-and-symfony",
+                "version_normalized": "dev-update-php-and-symfony",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/dj-kin29.git",
+                    "reference": "a4d744994117bf29270967b4a9949d6767f4aff5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/dj-kin29/zipball/a4d744994117bf29270967b4a9949d6767f4aff5",
+                    "reference": "a4d744994117bf29270967b4a9949d6767f4aff5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0 || ^2.0",
+                    "doctrine/annotations": "^1.0",
+                    "doctrine/doctrine-bundle": "^2.6",
+                    "doctrine/doctrine-migrations-bundle": "^3.2",
+                    "doctrine/orm": "^2.12",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "jwilsson/spotify-web-api-php": "^5.0",
+                    "php": ">=8.1.0",
+                    "phpdocumentor/reflection-docblock": "^5.3",
+                    "phpstan/phpdoc-parser": "^1.5",
+                    "phpunit/phpunit": "^9.5",
+                    "sensio/framework-extra-bundle": "^6.1",
+                    "symfony/apache-pack": "^1.0",
+                    "symfony/asset": "5.4.*",
+                    "symfony/console": "5.4.*",
+                    "symfony/dotenv": "5.4.*",
+                    "symfony/expression-language": "5.4.*",
+                    "symfony/flex": "^1.3.1",
+                    "symfony/form": "5.4.*",
+                    "symfony/framework-bundle": "5.4.*",
+                    "symfony/http-client": "5.4.*",
+                    "symfony/intl": "5.4.*",
+                    "symfony/mailer": "5.4.*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/process": "5.4.*",
+                    "symfony/property-access": "5.4.*",
+                    "symfony/property-info": "5.4.*",
+                    "symfony/proxy-manager-bridge": "5.4.*",
+                    "symfony/security-bundle": "5.4.*",
+                    "symfony/serializer": "5.4.*",
+                    "symfony/translation": "5.4.*",
+                    "symfony/twig-bundle": "5.4.*",
+                    "symfony/validator": "5.4.*",
+                    "symfony/web-link": "5.4.*",
+                    "symfony/webpack-encore-bundle": "^1.12",
+                    "symfony/yaml": "5.4.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "phpmetrics/phpmetrics": "^2.6",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "symfony/browser-kit": "5.4.*",
+                    "symfony/css-selector": "5.4.*",
+                    "symfony/debug-bundle": "5.4.*",
+                    "symfony/phpunit-bridge": "^6.0",
+                    "symfony/stopwatch": "5.4.*",
+                    "symfony/web-profiler-bundle": "5.4.*"
+                },
+                "time": "2022-05-06T20:53:43+00:00",
+                "type": "project",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "5.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "App\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "test": [
+                        "./vendor/bin/phpunit tests/"
+                    ],
+                    "cs": [
+                        "vendor/bin/php-cs-fixer fix -v --dry-run src/"
+                    ],
+                    "cs-fix": [
+                        "vendor/bin/php-cs-fixer fix -v src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Web Application for creating automatically Spotify playlist",
+                "support": {
+                    "source": "https://github.com/kin29/dj-kin29/tree/update-php-and-symfony",
+                    "issues": "https://github.com/kin29/dj-kin29/issues"
+                }
+            }
+        },
+        "kin29/slack2mail": {
+            "v0.0.1": {
+                "name": "kin29/slack2mail",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/slack2mail.git",
+                    "reference": "9563089eff1a991aea52b1a112c95b53e6ab5a8a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/slack2mail/zipball/9563089eff1a991aea52b1a112c95b53e6ab5a8a",
+                    "reference": "9563089eff1a991aea52b1a112c95b53e6ab5a8a",
+                    "shasum": ""
+                },
+                "require": {
+                    "sendgrid/sendgrid": "~5.0.9"
+                },
+                "time": "2022-02-22T03:43:22+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "kin29",
+                        "email": "kin29.com@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/slack2mail/tree/v0.0.1",
+                    "issues": "https://github.com/kin29/slack2mail/issues"
+                }
+            },
+            "v0.0.2": {
+                "name": "kin29/slack2mail",
+                "version": "v0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/slack2mail.git",
+                    "reference": "e0439620900229fdcf42529d6da7c07c72f1b723"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/slack2mail/zipball/e0439620900229fdcf42529d6da7c07c72f1b723",
+                    "reference": "e0439620900229fdcf42529d6da7c07c72f1b723",
+                    "shasum": ""
+                },
+                "require": {
+                    "sendgrid/sendgrid": "~5.0.9"
+                },
+                "time": "2022-02-22T04:40:02+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "kin29",
+                        "email": "kin29.com@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/slack2mail/tree/v0.0.2",
+                    "issues": "https://github.com/kin29/slack2mail/issues"
+                }
+            },
+            "v0.0.3": {
+                "name": "kin29/slack2mail",
+                "version": "v0.0.3",
+                "version_normalized": "0.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/slack2mail.git",
+                    "reference": "5ead7fc8f0bccd368c99dd5215e507bd78e38887"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/slack2mail/zipball/5ead7fc8f0bccd368c99dd5215e507bd78e38887",
+                    "reference": "5ead7fc8f0bccd368c99dd5215e507bd78e38887",
+                    "shasum": ""
+                },
+                "require": {
+                    "sendgrid/sendgrid": "~5.0.9"
+                },
+                "time": "2022-02-22T05:05:00+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "kin29",
+                        "email": "kin29.com@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/slack2mail/tree/v0.0.3",
+                    "issues": "https://github.com/kin29/slack2mail/issues"
+                }
+            },
+            "dev-master": {
+                "name": "kin29/slack2mail",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/kin29/slack2mail.git",
+                    "reference": "5ead7fc8f0bccd368c99dd5215e507bd78e38887"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/kin29/slack2mail/zipball/5ead7fc8f0bccd368c99dd5215e507bd78e38887",
+                    "reference": "5ead7fc8f0bccd368c99dd5215e507bd78e38887",
+                    "shasum": ""
+                },
+                "require": {
+                    "sendgrid/sendgrid": "~5.0.9"
+                },
+                "time": "2022-02-22T05:05:00+00:00",
+                "default-branch": true,
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "kin29",
+                        "email": "kin29.com@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/kin29/slack2mail/tree/v0.0.3",
+                    "issues": "https://github.com/kin29/slack2mail/issues"
+                }
+            }
+        }
+    }
+}
