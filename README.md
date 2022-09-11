@@ -7,7 +7,8 @@ https://github.com/composer/satis
 ```
 $ composer install
 
-$ vendor/bin/satis build satis.json doc
+# GitHub Actionでするのでコミットしない。
+$ vendor/bin/satis build satis.json docs
 
 $ php -S localhost:8888 -t doc
 ```
